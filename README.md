@@ -96,7 +96,7 @@ npm run dev
 Environment variables are required for local and production execution.
 .env files are intentionally excluded from this repository.
 
-Architecture Overview
+###Architecture Overview
 
 The application follows a layered architecture with:
 
@@ -104,3 +104,8 @@ Separation between UI, API, and persistence layers
 CQRS for scalability and maintainability
 Centralized validation and lookup logic
 Cloud-ready deployment model
+
+###Author
+
+Melissa Romero
+Software Engineering Capstone Project
