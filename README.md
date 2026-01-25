@@ -1,7 +1,7 @@
 # CCRemodeling-SWE_Capstone_Project
 
 CCRemodeling is a full-stack web application designed for a remodeling contractor business.  
-It includes a public customer-facing site () for submitting service requests and a **secure admin dashboard** for managing customers, requests, estimate appointments, and quotes.
+It includes a public customer-facing site for submitting service requests and a secure admin dashboard for managing customers, requests, estimate appointments, and quotes.
 
 This project was developed as a software engineering capstone and deployed using a modern cloud-based architecture.
 
