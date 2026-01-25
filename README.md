@@ -83,10 +83,12 @@ Password: Pa$$w0rd1
 ---
 
 ### Run the API
-```bash
+
 cd CCRemodelAdmin/API
 dotnet restore
 dotnet run
+
+---
 
 ### Run the Admin Dashboard
 cd CCRemodelAdmin/ClientApps/admin
@@ -96,7 +98,7 @@ npm run dev
 Environment variables are required for local and production execution.
 .env files are intentionally excluded from this repository.
 
-###Architecture Overview
+### Architecture Overview
 
 The application follows a layered architecture with:
 
