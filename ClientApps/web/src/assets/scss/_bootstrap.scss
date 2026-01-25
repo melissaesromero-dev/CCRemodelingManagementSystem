@@ -1,0 +1,89 @@
+
+@use "./theme-vars" as v;
+@use "sass:map";
+@use "bootstrap/scss/bootstrap" with (
+    // Font
+    $font-family-sans-serif: ("Open Sans", sans-serif),
+
+    // Core theme colors
+    $primary: v.$primary,
+    $secondary: v.$secondary,
+    $success: v.$success,
+    $warning: v.$warning,
+    $info: v.$info,
+    $danger: v.$danger,
+
+    $theme-colors: map.merge((
+    "primary": v.$primary,
+    "secondary": v.$secondary,
+    "success": v.$success,
+    "warning": v.$warning,
+    "info": v.$info,
+    "danger": v.$danger,
+    "tertiary": v.$tertiary,
+    "light": v.$light,
+    "dark": v.$dark,
+
+    "neutral": v.$neutral,
+    "neutral-darker": v.$neutral-darker,
+    "delete-color": v.$delete-color,
+    "bg-default": v.$bg-default,
+    "text-primary": v.$text-primary
+    ), ()),
+
+    
+    // Background + text
+    $body-bg: v.$bg-default,
+    $body-color: v.$text-primary,
+    $headings-color: v.$text-primary,
+
+    // Navbar
+    $navbar-nav-link-padding-x: 0.8rem,
+    $navbar-padding-y: 1rem,
+    $nav-link-font-weight: 700,
+
+    //Links
+    $link-color: v.$tertiary,
+    $link-hover-color: darken(v.$tertiary, 10%),
+    $link-decoration: none,
+    $link-hover-decoration: underline,
+
+    // Spacing
+    $spacers: (
+        0: 0,
+        1: v.$spacer * 0.25,
+        2: v.$spacer * 0.5,
+        3: v.$spacer,
+        4: v.$spacer * 1.5,
+        5: v.$spacer * 3,
+        6: v.$spacer * 6,
+        7: v.$spacer * 8,
+        8: v.$spacer * 12
+    ),
+
+    $headings-margin-bottom: v.$spacer,
+    $line-height-base: 1.7,
+    $headings-font-weight: bold,
+
+    // Buttons
+    
+    $btn-border-radius: v.$button-radius,
+    $btn-border-radius-sm: v.$button-radius,
+    $btn-border-radius-lg: v.$button-radius,
+    $btn-padding-y: v.$button-padding-y,
+    $btn-padding-y-lg: v.$button-padding-y,
+    $btn-padding-y-sm: v.$button-padding-y,
+    $btn-padding-x: v.$button-padding-x,
+    $btn-padding-x-lg: v.$button-padding-x,
+    $btn-padding-x-sm: v.$button-padding-x,
+    $navbar-toggler-border-radius: 5px,
+
+    // Inputs
+    $input-btn-padding-y: 0.7rem,
+    $input-btn-padding-x: 1rem,
+    $input-border-radius: v.$input-radius,
+    $input-border-radius-sm: v.$input-radius,
+    $input-border-radius-lg: v.$input-radius
+
+);
+
